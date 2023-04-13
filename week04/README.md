@@ -1,17 +1,10 @@
-## HomeWork Week04: Upgrade contract
+# HomeWork Week04: Upgrade contract
 
-### contracts
+## contracts
 
-#### BoxV1.sol
+The Contracts Deploy in the Sepolia Testnet and draw lessons from this article
 
-> Box origin Proxy Contract
+[Web3 Tutorial: write upgradeable smart contract (proxy) using OpenZeppelin](https://dev.to/yakult/tutorial-write-upgradeable-smart-contract-proxy-contract-with-openzeppelin-1916)
 
-#### BoxV2.sol
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/84bmjpjdb8d7rbc4szqc.png"/>
 
-1. logic contract
-2. through BoxV1 Contract and add a increment method
-
-#### BoxV3.sol
-
-1. logic contract
-2. through BoxV2 Contract and add a name variable, setName method

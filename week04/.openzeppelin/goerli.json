@@ -24,6 +24,21 @@
       "address": "0x366A81B20991f6E541A26FA4260E97A3e3938B96",
       "txHash": "0xe4085cf37ac20fc4e227f3b5d7cff84ce7fd14ba5e232176e4f10dc9024aeb0f",
       "kind": "transparent"
+    },
+    {
+      "address": "0xdBf491d7E00b8b184220c032039351bacb10c82E",
+      "txHash": "0x82f1944d9ef10bc95b8fee04dabca0b2383ea954c350e5c49925a8fd259c414a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x40c050158234412253C9749C81Ac7eAE87E424d0",
+      "txHash": "0xc4f842194574be4296d8cbb7b25d298e9002b873365f917d54e99fae19637c32",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x89C3d766A0996543eEcf6911D1569023000Bb3BB",
+      "txHash": "0x6983ee5254c0a7eb5b919dcdabf8177498f8b995f806d3a5f79fb1aac1275d20",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -46,6 +61,54 @@
           "t_uint256": {
             "label": "uint256",
             "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "caeae099eea3479b3421170a2c5bfc8a2dd28351ab2163e3f3a93eb47216fed4": {
+      "address": "0x7F9Cb292ae69851F7155f70dc9eb13f3d6E33bA5",
+      "txHash": "0x6abcd5599e090d2f4af46029d13a63e9b1001194a14655d3ade8b16046ff8406",
+      "layout": {
+        "solcVersion": "0.8.9",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/BoxV1.sol:8"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
           }
         }
       }

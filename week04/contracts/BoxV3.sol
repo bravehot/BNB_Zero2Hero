@@ -12,4 +12,8 @@ contract BoxV3 is BoxV2 {
         name = _name;
         emit NameChanged(name);
     }
+
+    function getName() public view returns (string memory) {
+        return string(abi.encodePacked("Name: ", name));
+    }
 }

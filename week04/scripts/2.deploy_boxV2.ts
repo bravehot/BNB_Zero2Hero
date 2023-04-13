@@ -4,7 +4,7 @@ import { ethers, upgrades } from "hardhat";
 import { readAddressList, storeAddressList } from "./helper";
 
 // original Box(proxy) address
-const proxyAddress = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
+const proxyAddress = "0x1cB25bC3bA1F8373F45EB9aEAcFd7FAd39b33C20";
 
 const main = async () => {
   const addressList = readAddressList() as any;
@@ -33,5 +33,5 @@ const main = async () => {
 
 main().catch((err) => {
   console.log("err: ", err);
-  process.exit(1);
+  process.exitCode = 1;
 });

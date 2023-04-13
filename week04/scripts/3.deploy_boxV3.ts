@@ -2,7 +2,7 @@ import { upgrades, ethers } from "hardhat";
 import { readAddressList, storeAddressList } from "./helper";
 
 // original Box(proxy) address
-const proxyAddress = "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0";
+const proxyAddress = "0x1cB25bC3bA1F8373F45EB9aEAcFd7FAd39b33C20";
 
 async function main() {
   const addressList = readAddressList() as any;
